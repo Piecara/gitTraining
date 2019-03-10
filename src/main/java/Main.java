@@ -11,5 +11,7 @@ public class Main {
 
         list.stream().forEach(System.out::println);
 
+        Person person = new Person();
+
     }
 }
