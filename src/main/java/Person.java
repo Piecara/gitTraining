@@ -7,7 +7,8 @@ public class Person implements Identify {
 
     @Override
     public void getInfo() {
-
+        getAge();
+        getName();
     }
 
     public Person(){

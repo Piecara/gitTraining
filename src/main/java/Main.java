@@ -15,9 +15,8 @@ public class Main {
         Person person1 = new Person("Marek",21,new Address(42,"Malinowa"));
         Person person2 = new Person("Arek",43,new Address(33,"Klonowa"));
 
-
-        List<Person> personList = new ArrayList<>();
-
+       final List<Person> personList = new ArrayList<>();
+        
         personList.add(person);
         personList.add(person1);
         personList.add(person2);
