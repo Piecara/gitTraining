@@ -54,4 +54,9 @@ public class Bank {
                 ", personList=" + personList +
                 '}';
     }
+
+    public boolean findPersonInBank(Person person){
+        if (personList.contains(person)) return true;
+        else return false;
+    };
 }

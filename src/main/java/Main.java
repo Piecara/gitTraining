@@ -25,5 +25,6 @@ public class Main {
 
         Bank bank = new Bank("bank",new Address(2,"Malinowa"),personList);
         System.out.println(bank.toString());
+        System.out.println(bank.findPersonInBank(person));
     }
 }
